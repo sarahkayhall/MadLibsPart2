@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SITC Story Time...</string>
+    <string name="code_langauge">Coding Language</string>
+    <string name="Adjective1">Adjective 1</string>
+    <string name="ProfessorName">An sitc Professor</string>
+    <string name="Adjective2">Adjective 2</string>
+    <string name="Noun1">Plural Noun</string>
+    <string name="Noun2">Noun</string>
+    <string name="button_send">I\'m Ready!</string>
+    <string name="InfoTitle2">short story!</string>
+    <string name="InfoTitle1">It\'s time for a...</string>
+    <string name="InfoTitle3">SITC Edition</string>
+    <string name="messagetitle">Your sitc Short Story</string>
+    <string name="thanks">Thanks For Reading!</string>
+</resources>
