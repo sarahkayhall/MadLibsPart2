@@ -27,7 +27,8 @@ class MainActivity : AppCompatActivity() {
         val message7 = editText17.text.toString()
         val message8 = editText18.text.toString()
         val message9 = editText19.text.toString()
-        val message10 = editText16.text.toString()
+        val message10 = editText21.text.toString()
+        val message11 = editText22.text.toString()
 
         val intent = Intent(this, DisplayMessageActivity::class.java).apply {
             putExtra(EXTRA_MESSAGE, message)
@@ -36,6 +37,11 @@ class MainActivity : AppCompatActivity() {
             putExtra("EXTRA_MESSAGE4", message4)
             putExtra("EXTRA_MESSAGE5", message5)
             putExtra("EXTRA_MESSAGE6", message6)
+            putExtra("EXTRA_MESSAGE7", message7)
+            putExtra("EXTRA_MESSAGE8", message8)
+            putExtra("EXTRA_MESSAGE9", message9)
+            putExtra("EXTRA_MESSAGE10", message10)
+            putExtra("EXTRA_MESSAGE11", message11)
         }
         startActivity(intent)
     }

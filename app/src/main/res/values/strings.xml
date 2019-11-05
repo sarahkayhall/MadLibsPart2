@@ -15,9 +15,9 @@
 
 
     <string name="button_send">I\'m Ready!</string>
-    <string name="InfoTitle2">short story!</string>
+    <string name="InfoTitle2">(not really short) short story!</string>
     <string name="InfoTitle1">It\'s time for a...</string>
     <string name="InfoTitle3">SITC Edition</string>
-    <string name="messagetitle">Your sitc True Story</string>
+    <string name="messagetitle">Your sitc 100% True Story</string>
     <string name="thanks">Thanks For Reading!</string>
 </resources>
