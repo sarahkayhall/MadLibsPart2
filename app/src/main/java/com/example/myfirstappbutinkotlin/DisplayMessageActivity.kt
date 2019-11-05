@@ -21,8 +21,28 @@ class DisplayMessageActivity : AppCompatActivity() {
         val message6 = intent.getStringExtra("EXTRA_MESSAGE6")
 
         // Capture the layout's TextView and set the string as its text
-        val story = "Once upon a time in the land of " + message + "\n The " + message2 + " and noble " + message3 + "\n decided that they would create a new and " + message4 + " assignment.\n The new coding project would be about " +  message5 + "\n and instead of using a computer to code you'd have to use a " + message6 + ".\n An then all the sutdents failed.\n The End."
-        textView6.text = story
+        val story = "So there's this "
+        val story2 = "It knows how to code in "
+        val story3 = "Surprising right? Well here's the thing..."
+        val story4 = "It only codes in "
+        val story5 = "Though sometimes it also codes in "
+        val story6 = "Confusing sometimes, I know."
+        val story7 = "But the question is... how did it learn?"
+        val story8 = "Ah yes let me tell the tale..."
+        val story9 = "One day when "
+        val story10 = "was out for a "
+        val story11 = " walk,"
+        val story12 = "trying to come up with yet another program to make their students "
+        val story13 = "they stumbled upon this "
+        val story14 = "living in a "
+
+        textView4.text = story
+        textView6.text = story2
+        textView9.text = message
+        textView7.text = message2
+        textView10.text = story3
+        textView11.text = story4
+        textView12.text = message3
 
     }
 }
